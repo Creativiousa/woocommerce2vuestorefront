@@ -10,6 +10,7 @@
     "app-root-path": "^2.1.0",
     "commander": "^2.19.0",
     "elasticsearch": "^15.1.1",
+    "express": "^4.16.4",
     "html-entities": "^1.2.1",
     "promise-parallel-throttle": "^3.2.0",
     "winston": "^3.1.0",
