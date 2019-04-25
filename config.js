@@ -3,20 +3,20 @@ const appRoot = require('app-root-path');
 module.exports = Object.freeze({
   woo: {
     api: {
-      host: 'localhost',
-      protocol: 'http',
+      host: '167.99.77.138',
+      protocol: 'https',
       auth: {
-        consumer_key: "ck_36748f3bac677abc6f7ee2a03a68b8eb4c1c5e7f",
-        consumer_secret: "cs_9f15969c5c2f6c4bcc54104c88bdb31f71dca871",
+        consumer_key: "ck_398d22a7b22da006219b09f51be3acdb32b1d1fe",
+        consumer_secret: "cs_376b25466988a9981e3e30afb5e09ce7204027f6",
         version: "v3"
       }
     }
   },
   db: {
-    host: 'localhost',
+    host: '167.99.77.138',
     port: 9200,
     driver: 'elasticsearch',
-    url: process.env.DATABASE_URL || 'http://localhost:9200',
+    url: process.env.DATABASE_URL || 'http://167.99.77.138:9200',
     indexName:  process.env.INDEX_NAME || 'vue_storefront_catalog'
   },
   winston: {
